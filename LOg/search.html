@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Search</title>
+</head>
+<body>
+    <h1>Log Search</h1>
+    <form action="/search" method="post">
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level"><br><br>
+        <label for="log_string">Log String:</label>
+        <input type="text" id="log_string" name="log_string"><br><br>
+        <label for="timestamp">Timestamp:</label>
+        <input type="text" id="timestamp" name="timestamp"><br><br>
+        <label for="source">Source:</label>
+        <input type="text" id="source" name="source"><br><br>
+        <input type="submit" value="Search">
+    </form>
+    <br>
+    <a href="/">Go back to Home</a>
+</body>
+</html>
